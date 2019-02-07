@@ -1,0 +1,17 @@
+<!--JavaScript to display current Date and Time.-->
+<html>
+	<head>
+		<!-- <title>Current date and time.</title> -->
+		<script type="text/javascript">
+			function getCurrentDate(){
+				var curDate=new Date();
+				document.getElementById("showDate").innerHTML = curDate.toString();
+			}
+		</script>
+	</head><font size="6" face="Consolas">
+    <body onLoad='getCurrentDate()' style="text-align: center">
+       <h3>Current date and time.</h3>
+         <h6 id="showDate"></h6>
+		</body>
+	</font>
+</html>
