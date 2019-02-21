@@ -1,0 +1,31 @@
+{%  load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'equeue/style.css' %}">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+<html>
+    <head>
+        <title>Welcome</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous" rel="stylesheet">
+        <link rel="https://getbootstrap.com/docs/4.0/examples/cover/cover.css" rel="stylesheet">
+    </head>
+    <body class="text-center">
+        <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+{#          <header class="masthead mb-auto">#}
+            <div class="inner">
+              <h1 class="spheader">eQueue</h1>
+            </div>
+{#          </header>#}
+        <main role="main" class="inner cover"><section class="spcoverline">
+            <h3 class="cover-heading">Online Queue Management system</h3>
+            <p class="lead">We understand the importance of your time and know that you cannot be present physically
+                and stay long </p>
+              <p class="lead">in lines to get your work done. Well forget waiting in line the</p>
+              <p class="lead">traditional way, and let eQueue reserve your spot online for you.</p>
+            <p class="lead">
+              <a href="{% url 'equeue:login' %}" class="btn hpbtn btn-secondary">Get in Line</a>
+            </p></section>
+          </main>
+          </div>
+  </body>
+</html>

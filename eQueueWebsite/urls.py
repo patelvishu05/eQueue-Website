@@ -17,6 +17,7 @@ from django.contrib import admin
 from django.urls import include, path
 
 urlpatterns = [
+    path('equeue/', include('equeue.urls')),
     path('polls/', include('polls.urls')),
     path('admin/', admin.site.urls),
 ]

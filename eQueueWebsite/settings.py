@@ -31,6 +31,7 @@ ALLOWED_HOSTS = ['192.168.56.101']
 # Application definition
 
 INSTALLED_APPS = [
+    'equeue.apps.EqueueConfig',
     'polls.apps.PollsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
