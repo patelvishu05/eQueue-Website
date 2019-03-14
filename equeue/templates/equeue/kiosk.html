@@ -1,0 +1,11 @@
+{% extends './base.html' %}
+
+{% block content %}
+     <h3 class="cover-heading">Online Queue Management system</h3>
+<div class="form-container">
+<form action='.' method='POST'> {% csrf_token %}
+    {{ form.as_p}}
+    <button type="submit" onclick="location.href=date.html" class="btn btn-primary btn-block">Submit</button>
+</form>
+</div>
+{% endblock %}

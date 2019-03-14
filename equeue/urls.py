@@ -7,4 +7,5 @@ app_name = 'equeue'
 urlpatterns = [
     path('', views.LandingView.as_view(), name='index'),
     path('login/', views.LoginView.as_view(), name='login'),
+    path('kiosk/', views.createKioskView, name='kiosk'),
 ]
