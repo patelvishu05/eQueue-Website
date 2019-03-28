@@ -1,0 +1,27 @@
+{% extends './base.html' %}
+{% load function %}
+{% block content %}
+<h3 class="cover-heading">Online Queue Management System</h3>
+    <div class="form-container">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Estimated Wait Time</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for query in queryset %}
+                <tr>
+                    <td>{{ query.firstName}} {{ query.lastName}} </td>
+                    {% if query.waitTime is not 0 %}
+                        <td align="center">{% minToHr query.waitTime%} Minutes</td>
+                    {% else %}
+                        <td align="center"> Now </td>
+                    {% endif %}
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    </div>
+{% endblock %}
