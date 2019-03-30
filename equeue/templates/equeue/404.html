@@ -1,0 +1,15 @@
+{% extends 'equeue/base.html' %}
+
+{% block content %}
+ <body>
+    <div class="jumbotron jumbotron-fluid text-center">
+      <h1 class="display-4 headFour">404 Page not Found</h1>
+      <p class="lead">I am sure this is not the page you are looking for.</p>
+      <p>Please let us take the pleasure of taking you to the home page by clicking the button below.</p>
+      <p class="lead">
+      </p>
+        <section>
+            <a class="btn btn-primary" href="{% url 'equeue:index' %}" role="button">Home Page</a></section>
+    </div>
+  </body>
+{% endblock %}

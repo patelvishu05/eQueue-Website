@@ -17,12 +17,17 @@ from django.contrib.auth.decorators import login_required
 from django.utils.decorators import method_decorator
 from . forms import AdminLoginForm
 
+
 class LandingView(TemplateView):
     template_name = "equeue/index.html"
 
 
 class LoginView(TemplateView):
     template_name = "equeue/login.html"
+
+
+class PageNotFound(TemplateView):
+    template_name = "equeue/404.html"
 
 
 def createKioskView(request):
@@ -49,7 +54,6 @@ class AdminKioskView(TemplateView):
 
         args = {'form': form, 'queryset': queryset}
         return render(request, self.template_name, args)
-
 
     def post(self, request):
         form = KioskSignIn()
