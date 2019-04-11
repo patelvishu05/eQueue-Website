@@ -43,7 +43,7 @@ def createKioskView(request):
     return render(request, "equeue/kiosk.html", context)
 
 
-@method_decorator(login_required, name='dispatch')
+# @method_decorator(login_required, name='dispatch')
 class AdminKioskView(TemplateView):
 
     template_name = "equeue/admin_kiosk.html"

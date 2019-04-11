@@ -66,7 +66,7 @@ class AdminLoginForm(forms.Form):
             if not user.is_active:
                 raise forms.ValidationError('This User is not active')
 
-        return super(AdminLoginForm, self).clean(*args,**kwargs)
-
+        log = super(AdminLoginForm, self).clean(*args,**kwargs)
+        return log
 
 

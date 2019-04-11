@@ -43,6 +43,7 @@ INSTALLED_APPS = [
 
 
 MIDDLEWARE = [
+    'equeue.middleware.LoginRequiredMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -129,3 +130,12 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+
+LOGIN_URL = '/equeue/login/'
+
+LOGIN_EXEMPT_URL = (
+    'kiosk/',
+    'student-view/',
+    '404/'
+)
