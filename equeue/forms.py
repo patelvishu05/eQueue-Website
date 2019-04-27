@@ -7,7 +7,7 @@ from django.shortcuts import render, redirect
 
 class KioskSignIn(forms.ModelForm):
     serviceList =(
-        (None,'Select'),
+        (None, 'Select'),
         (1, 'Drop Form (1 Minutes)'),
         (10, 'Financial Aid (10 Minutes)'),
         (10, 'Fiscal Service (10 Minutes)'),
@@ -50,7 +50,7 @@ User = get_user_model()
 
 class AdminLoginForm(forms.Form):
     username = forms.CharField(widget=forms.TextInput(attrs={'class': 'form-control'}))
-    password = forms.CharField(widget=forms.PasswordInput(attrs={'class':'form-control'}))
+    password = forms.CharField(widget=forms.PasswordInput(attrs={'class': 'form-control'}))
 
     def clean(self, *args, **kwargs):
         username = self.cleaned_data.get('username')
@@ -66,7 +66,7 @@ class AdminLoginForm(forms.Form):
             if not user.is_active:
                 raise forms.ValidationError('This User is not active')
 
-        log = super(AdminLoginForm, self).clean(*args,**kwargs)
+        log = super(AdminLoginForm, self).clean(*args, **kwargs)
         return log
 
 

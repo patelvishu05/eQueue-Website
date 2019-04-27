@@ -13,10 +13,10 @@ from django.conf import settings
 import re
 from django.shortcuts import redirect
 
-EXEMPT_URLS = {re.compile(settings.LOGIN_URL.lstrip('/'))}
+EXEMPT_URLS = [re.compile(settings.LOGIN_URLS.lstrip('/'))]
 
 if hasattr(settings, 'LOGIN_EXEMPT_URLS'):
-    EXEMPT_URLS += {re.compile(url) for url in settings.LOGIN_EXEMPT_URL}
+    EXEMPT_URLS += [re.compile(url) for url in settings.LOGIN_EXEMPT_URLS]
 
 class LoginRequiredMiddleware:
 
@@ -31,11 +31,25 @@ class LoginRequiredMiddleware:
         # print('->>>>>>>>>>>>',request)
         assert hasattr(request, 'user')
         path = request.path_info.lstrip('/')
-        print(path)
+        # print('----->', path)
 
-        if not request.user.is_authenticated:
-            if not any(url.match(path) for url in EXEMPT_URLS):
-                return redirect(settings.LOGIN_URL)
+        # if not request.user.is_authenticated:
+        #     if not any(url.match(path) for url in EXEMPT_URLS):
+        #         return redirect(settings.LOGIN_URL)
+
+        # print('---->', path)
+        # if path != 'equeue/student-view/':
+
+        if path not in settings.PUBLIC_VIEW:
+            url_is_exempt = any(url.match(path) for url in EXEMPT_URLS)
+            if request.user.is_authenticated and url_is_exempt:
+                return redirect(settings.LOGIN_REDIRECT_URL)
+            elif request.user.is_authenticated or url_is_exempt:
+                return None
+            else:
+                return redirect(settings.LOGIN_URLS)
+
+
 
 
 

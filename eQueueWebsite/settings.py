@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/2.1/ref/settings/
 """
 
 import os
+import re
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -131,11 +132,19 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
+LOGIN_REDIRECT_URL = '/equeue/admin-kiosk/'
 
-LOGIN_URL = '/equeue/login/'
+LOGIN_URLS = '/equeue/login/'
 
-LOGIN_EXEMPT_URL = (
-    'kiosk/',
-    'student-view/',
-    '404/'
+LOGIN_EXEMPT_URLS = (
+    r'^equeue/login/$',
 )
+
+PUBLIC_VIEW = [
+    '',
+    'equeue/',
+    'equeue/student-view/',
+    'equeue/kiosk/',
+    'equeue/404/',
+    'equeue/preprocess/'
+]

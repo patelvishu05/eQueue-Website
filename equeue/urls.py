@@ -11,4 +11,5 @@ urlpatterns = [
     path('admin-kiosk/', views.AdminKioskView.as_view(), name='admin-kiosk'),
     path('student-view/', views.KioskListView.as_view(), name="student-view"),
     path('404/', views.PageNotFound.as_view(), name='404'),
+    path('preprocess/', views.PreProcess.as_view(), name='preprocess'),
 ]

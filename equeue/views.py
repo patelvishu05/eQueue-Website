@@ -43,23 +43,39 @@ def createKioskView(request):
     return render(request, "equeue/kiosk.html", context)
 
 
+class PreProcess(TemplateView):
+
+    template_name = "equeue/pre_process.html"
+
+    def get(self, request):
+        queryset = Person.objects.all()
+
+        args = {'queryset': queryset}
+        return render(request, self.template_name, args)
+
+
 # @method_decorator(login_required, name='dispatch')
 class AdminKioskView(TemplateView):
 
     template_name = "equeue/admin_kiosk.html"
 
     def get(self, request):
-        form = KioskSignIn()
+        time = 0
+        i = 0
+
+        for p in Person.objects.all():
+            if i==0:
+                time = p.service
+            else:
+                p.waitTime = p.waitTime - time
+            p.lineNumber-=1
+            p.save()
+            i+=1
+
+        Person.objects.get(lineNumber=0).delete()
         queryset = Person.objects.all()
 
-        args = {'form': form, 'queryset': queryset}
-        return render(request, self.template_name, args)
-
-    def post(self, request):
-        form = KioskSignIn()
-        print('hi' + request)
-
-        args = {'form': form, 'queryset': queryset}
+        args = {'queryset': queryset}
         return render(request, self.template_name, args)
 
 
