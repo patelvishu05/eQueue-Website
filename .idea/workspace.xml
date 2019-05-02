@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="85f3ecf1-3f32-4a4f-a5c0-d40f33ed74f4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/equeue/templates/equeue/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/equeue/templates/equeue/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eQueueWebsite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/eQueueWebsite/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/equeue/middleware.py" beforeDir="false" afterPath="$PROJECT_DIR$/equeue/middleware.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/equeue/templates/equeue/kiosk.html" beforeDir="false" afterPath="$PROJECT_DIR$/equeue/templates/equeue/kiosk.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/equeue/templates/equeue/student-view.html" beforeDir="false" afterPath="$PROJECT_DIR$/equeue/templates/equeue/student-view.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/equeue/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/equeue/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,51 +34,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/equeue/tests.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/equeue/forms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="860">
-              <caret line="47" selection-start-line="47" selection-end-line="47" />
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eQueueWebsite/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2840">
-              <caret line="143" column="7" selection-start-line="143" selection-start-column="7" selection-end-line="143" selection-end-column="7" />
-              <folding>
-                <element signature="e#314#323#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eQueueWebsite/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-              <folding>
-                <element signature="e#637#669#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/equeue/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="75" column="39" lean-forward="true" selection-start-line="75" selection-start-column="39" selection-end-line="75" selection-end-column="39" />
+            <state relative-caret-position="200">
+              <caret line="77" column="24" selection-start-line="77" selection-start-column="24" selection-end-line="78" selection-end-column="25" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -87,10 +46,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/equeue/templates/equeue/student-view.html">
+        <entry file="file://$PROJECT_DIR$/equeue/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+            <state relative-caret-position="220">
+              <caret line="11" column="55" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="55" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/eQueueWebsite/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1981">
+              <caret line="149" column="1" lean-forward="true" selection-start-line="149" selection-start-column="1" selection-end-line="149" selection-end-column="1" />
+              <folding>
+                <element signature="e#314#323#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -98,38 +72,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/equeue/templates/equeue/kiosk.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+            <state relative-caret-position="60">
+              <caret line="3" column="65" lean-forward="true" selection-start-line="3" selection-start-column="65" selection-end-line="3" selection-end-column="65" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/equeue/templates/equeue/pre_process.html">
+        <entry file="file://$PROJECT_DIR$/equeue/middleware.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="25" column="45" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/equeue/templates/equeue/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/equeue/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+            <state relative-caret-position="-99">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
-                <element signature="e#0#28#0" expanded="true" />
+                <element signature="e#197#219#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/equeue/templates/equeue/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="25" column="96" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="96" />
             </state>
           </provider>
         </entry>
@@ -142,6 +107,11 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>csrf</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -184,14 +154,14 @@
         <option value="$PROJECT_DIR$/eQueueWebsite/urls.py" />
         <option value="$PROJECT_DIR$/equeue/templates/equeue/login.html" />
         <option value="$PROJECT_DIR$/equeue/templates/equeue/preAdmin.html" />
-        <option value="$PROJECT_DIR$/equeue/urls.py" />
-        <option value="$PROJECT_DIR$/equeue/middleware.py" />
         <option value="$PROJECT_DIR$/equeue/forms.py" />
-        <option value="$PROJECT_DIR$/eQueueWebsite/settings.py" />
         <option value="$PROJECT_DIR$/equeue/templates/equeue/base.html" />
         <option value="$PROJECT_DIR$/equeue/templates/equeue/student-view.html" />
+        <option value="$PROJECT_DIR$/equeue/urls.py" />
+        <option value="$PROJECT_DIR$/equeue/middleware.py" />
         <option value="$PROJECT_DIR$/equeue/templates/equeue/kiosk.html" />
         <option value="$PROJECT_DIR$/equeue/views.py" />
+        <option value="$PROJECT_DIR$/eQueueWebsite/settings.py" />
       </list>
     </option>
   </component>
@@ -206,6 +176,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -223,13 +194,6 @@
               <item name="eQueueWebsite" type="462c0819:PsiDirectoryNode" />
               <item name="equeue" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eQueueWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eQueueWebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="equeue" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="equeue" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="eQueueWebsite" type="b2602c69:ProjectViewProjectNode" />
@@ -261,17 +225,17 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="C:/Program Files/Git/git-bash.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/equeue/views.py" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/equeue/views.py" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -377,7 +341,8 @@
       <workItem from="1556684295316" duration="851000" />
       <workItem from="1556768448445" duration="50000" />
       <workItem from="1556813258315" duration="30000" />
-      <workItem from="1556814593404" duration="1153000" />
+      <workItem from="1556814593404" duration="4755000" />
+      <workItem from="1556819918874" duration="2440000" />
     </task>
     <task id="LOCAL-00001" summary="init Repo">
       <created>1549396835896</created>
@@ -456,17 +421,23 @@
       <option name="project" value="LOCAL" />
       <updated>1556408506277</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="minor fix to admin-kiosk">
+      <created>1556815848920</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1556815848920</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128384000" />
+    <option name="totallyTimeSpent" value="134426000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21045576" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21313673" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -480,9 +451,9 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="File Transfer" order="9" weight="0.427157" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32390383" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.45685998" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="13" />
+      <window_info anchor="bottom" id="Python Console" order="13" weight="0.32956153" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -490,7 +461,7 @@
       <window_info anchor="right" id="Database" order="4" weight="0.3292517" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22788204" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21045576" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -502,9 +473,9 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="File Transfer" order="9" weight="0.3437058" />
+      <window_info anchor="bottom" id="File Transfer" order="9" weight="0.427157" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.33946252" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.1768034" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -528,7 +499,8 @@
     <MESSAGE value="404 not found and middleware" />
     <MESSAGE value="improvements to middleware" />
     <MESSAGE value="updated middleware, remove student logic" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated middleware, remove student logic" />
+    <MESSAGE value="minor fix to admin-kiosk" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor fix to admin-kiosk" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/polls/apps.py">
@@ -659,13 +631,6 @@
     <entry file="file://$PROJECT_DIR$/equeue/templatetags/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/equeue/templates/equeue/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="25" column="96" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/equeue/templates/equeue/404.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -678,13 +643,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/equeue/admin.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/equeue/templates/equeue/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="68" selection-start-line="10" selection-start-column="68" selection-end-line="10" selection-end-column="68" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/polls/templates/date.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -703,23 +661,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/equeue/middleware.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="e#197#219#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/equeue/templates/equeue/admin_kiosk.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/equeue/templatetags/function.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -727,26 +668,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/equeue/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/equeue/forms.py">
+    <entry file="file://$PROJECT_DIR$/equeue/templates/equeue/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="860">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="200">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eQueueWebsite/settings.py">
+    <entry file="file://$PROJECT_DIR$/equeue/templates/equeue/pre_process.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2840">
-          <caret line="143" column="7" selection-start-line="143" selection-start-column="7" selection-end-line="143" selection-end-column="7" />
-          <folding>
-            <element signature="e#314#323#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="174">
+          <caret line="17" column="64" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/equeue/templates/equeue/admin_kiosk.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/equeue/templates/equeue/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/equeue/templates/equeue/student-view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -760,31 +713,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/equeue/templates/equeue/student-view.html">
+    <entry file="file://$PROJECT_DIR$/equeue/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        <state relative-caret-position="1000">
+          <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/equeue/templates/equeue/pre_process.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="25" column="45" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="45" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/equeue/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/equeue/templates/equeue/base.html">
+    <entry file="file://$PROJECT_DIR$/equeue/templates/equeue/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        <state relative-caret-position="306">
+          <caret line="25" column="96" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="96" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/equeue/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+          <caret line="11" column="55" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="55" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
@@ -793,17 +745,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/equeue/templates/equeue/kiosk.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+        <state relative-caret-position="60">
+          <caret line="3" column="65" lean-forward="true" selection-start-line="3" selection-start-column="65" selection-end-line="3" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/equeue/middleware.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-99">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#197#219#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/equeue/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="75" column="39" lean-forward="true" selection-start-line="75" selection-start-column="39" selection-end-line="75" selection-end-column="39" />
+        <state relative-caret-position="200">
+          <caret line="77" column="24" selection-start-line="77" selection-start-column="24" selection-end-line="78" selection-end-column="25" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eQueueWebsite/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1981">
+          <caret line="149" column="1" lean-forward="true" selection-start-line="149" selection-start-column="1" selection-end-line="149" selection-end-column="1" />
+          <folding>
+            <element signature="e#314#323#0" expanded="true" />
           </folding>
         </state>
       </provider>

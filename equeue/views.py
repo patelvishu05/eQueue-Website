@@ -35,8 +35,8 @@ def createKioskView(request):
     if request.method == 'POST':
         form = KioskSignIn(request.POST)
         if form.is_valid():
-            print(form.save())
-
+            form.save()
+            return redirect('/equeue/student-view/')
     context = {
         "form": form
     }

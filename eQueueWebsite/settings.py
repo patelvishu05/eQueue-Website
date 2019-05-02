@@ -146,5 +146,5 @@ PUBLIC_VIEW = [
     'equeue/student-view/',
     'equeue/kiosk/',
     'equeue/404/',
-    'equeue/preprocess/'
+    # 'equeue/preprocess/'
 ]
