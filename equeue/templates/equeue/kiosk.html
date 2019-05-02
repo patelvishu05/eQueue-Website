@@ -5,7 +5,9 @@
     <div class="form-container">
         <form action='.' method='POST'> {% csrf_token %}
             {{ form.as_p}}
-            <button type="submit" class="btn btn-primary btn-block">Submit</button>
+            <a href="{% url 'equeue:student-view' %}">
+                <button type="submit" class="btn btn-primary btn-block">Submit</button>
+            </a>
         </form>
     </div>
 {% endblock %}

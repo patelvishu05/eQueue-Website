@@ -75,6 +75,9 @@ class AdminKioskView(TemplateView):
         Person.objects.get(lineNumber=0).delete()
         queryset = Person.objects.all()
 
+        no = queryset.last().lineNumber
+        Person.objects.get(lineNumber=no).delete()
+
         args = {'queryset': queryset}
         return render(request, self.template_name, args)
 
